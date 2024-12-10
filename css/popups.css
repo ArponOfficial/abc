@@ -1,0 +1,52 @@
+/* General Popup Styling */
+#newsletter-popup,
+#welcome-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  z-index: 1000;
+  width: 300px;
+  font-family: Arial, sans-serif;
+}
+
+#newsletter-popup .popup-content,
+#welcome-popup p {
+  background: black;
+  border-radius: 8px;
+  padding: 20px;
+  color: white;
+}
+
+.popup-email-input {
+  width: 80%;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.popup-submit-button {
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.popup-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
